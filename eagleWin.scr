@@ -40,11 +40,11 @@ Assign Alt+F 'run find;';
 SCH:
 Grid Default;
 Change Width 0.006in;
-MENU	 '[bin/designlink.svg] Search and order {\
+MENU     '[bin/designlink.svg] Search and order {\
                                           General : Run designlink-order.ulp -general; |\
                                           Schematic : Run designlink-order.ulp; \
                                           }'\
-	'\$HOME\EAGLE\ulps\samacsys.svg] SamacSys : Run samacsys.ulp;'\
+        '\$HOME\EAGLE\ulps\samacsys.svg] SamacSys : Run samacsys.ulp;'\
 ;
 
 #Assign custom shortcuts
@@ -73,3 +73,4 @@ Change Width 0.005in;
 Change Size 0.050in;
 MENU '[bin/pads-pcb.svg] PADS package import : RUN import-pads-powerpcb-v5;' \
      ;
+
