@@ -18,15 +18,15 @@ Very useful for navigating EAGLE easier, I don't know why they don't include som
 |Alt-F|Layout|Find component|
 |Alt-N|Schematic|Net (run wire)|
 |Alt-D|Schematic|Name (name wire)|
-|Alt-F|Schematic|Value (assign value to component|
+|Alt-F|Schematic|Value (assign value to component)|
 
 ## Installation
 
-0) Close EAGLE
-1) Navigate to your EAGLE installation folder, mine is in Documents/EAGLE_9.x.x
-2) Navigate to the "scripts" folder within that directory
-3) Rename the existing `eagle.scr` folder to `eagle_original.scr`
-4) Copy `eagleWin.scr` or `eagleMac.scr` to the scripts folder, depending on whether you're using Windows or Mac. The only difference is the line extensions.
-5-WIN) For windows: you need to run the following command inside the scripts directory in order to fix issues with the line endings and the way they are parsed by EAGLE. `TYPE eagleWin.scr | MORE /P > eagle.scr`. See (here)[https://stackoverflow.com/a/27844521] for more info.
-5-MAC) For mac: just rename `eagleMac.scr` to `eagle.scr`. The line endings should work out of the box.
-6) Reopen EAGLE, you should be all set!
+1) Close EAGLE
+2) Navigate to your EAGLE installation folder, mine is in Documents/EAGLE_9.x.x
+3) Navigate to the "scripts" folder within that directory
+4) Rename the existing `eagle.scr` folder to `eagle_original.scr`
+5) Copy `eagleWin.scr` or `eagleMac.scr` to the scripts folder, depending on whether you're using Windows or Mac. The only difference is the line extensions.
+6-WIN) For windows: you need to run the following command inside the scripts directory in order to fix issues with the line endings and the way they are parsed by EAGLE. `TYPE eagleWin.scr | MORE /P > eagle.scr`. See (here)[https://stackoverflow.com/a/27844521] for more info.
+6-MAC) For mac: just rename `eagleMac.scr` to `eagle.scr`. The line endings should work out of the box.
+7) Reopen EAGLE, you should be all set!
